@@ -1,0 +1,149 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: linear-gradient(#c97a66 20%, #c97a66 80%);
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  /* background-color: #1c436e; */
+}
+
+header {
+  flex: 1;
+  display: flex;
+  background-color: #b86f5e;
+  justify-content: space-between;
+  height: 3rem;
+  /* border-style: solid;
+  border-color: #160e04;
+  border-width: 0 0 5px 0; */
+}
+.header-logo {
+  width: 10%;
+}
+.header-logo img {
+  /* text-align: center; */
+  height: 80%;
+  align-items: center;
+  justify-content: center;
+  margin: 3% 10% 10% 40%;
+}
+
+.header-icon {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 0 1rem 0 0; */
+  margin-right: 1rem;
+  font-size: 2rem;
+}
+
+.header-icon span {
+  color: rgb(234, 234, 236);
+  margin-right: 1rem;
+}
+
+.hero-section {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-style: solid;
+  border-color: #050302;
+  border-width: 0 0 100px 0; */
+}
+
+.hero-quote {
+  color: white;
+}
+
+.hero-quote h3 {
+  text-align: right;
+}
+
+.hero-image {
+  padding: 0 10%;
+  width: 175px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hero-image img {
+  width: 100%;
+  max-height: 100%;
+  /* height: auto; */
+  max-width: 400px;
+}
+
+button {
+  background-color: #57b760;
+  border: none;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffffff00; /* Green */
+  box-shadow: 0px 0px 0px 2px #57b760;
+}
+
+.playlist-section {
+  /* height: 60vh; */
+  background-color: #181818;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* gap: 1rem; */
+}
+
+.playlist-card {
+  width: fit-content;
+  margin: 1rem;
+}
+
+.playlist-card p {
+  text-align: center;
+  color: white;
+  font-style: italic;
+  font-size: small;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.quote-section {
+  background-color: #c97a66;
+  background-image: url("assets/record-player.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+footer {
+  flex: 1;
+  display: flex;
+  background-color: #b86f5e;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  color: white;
+  font-style: italic;
+  font-size: 0.5rem;
+}
